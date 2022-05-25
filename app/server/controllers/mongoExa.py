@@ -16,6 +16,7 @@ def add_query(name, email, age, languages, password):
     x = mycol.insert_one(user_info)
     
     return {"message" : "Succesfully created your account"}
+    
     # x = mycol.insert_one(mydict)
     # y = mycol.insert_one(mydict2)
 
